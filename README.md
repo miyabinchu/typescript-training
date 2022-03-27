@@ -41,3 +41,28 @@ npm install --save-dev ts-node@10.7.0
 ```
 npx ts-node src/install-typescript.ts
 ```
+
+## install ts-node-dev
+- 最新バージョンの確認
+```
+npm info ts-node-dev
+```
+- バージョンを指定してインストール
+```
+npm install -save-dev ts-node-dev@1.1.8
+```
+## ファイルが変更される度にコンパイルと実行
+```
+npx ts-node-dev --respawn src/install-typescript.ts
+```
+## タスクに登録
+- package.json に追記
+```json:package.json
+"scripts": {
+    "dev": "ts-node-dev --respawn",
+}
+```
+- 実行
+```
+npm run dev src/install-typescript.ts
+```
