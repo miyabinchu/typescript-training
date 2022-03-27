@@ -66,3 +66,8 @@ npx ts-node-dev --respawn src/install-typescript.ts
 ```
 npm run dev src/install-typescript.ts
 ```
+
+## create tsconfig.json
+```
+npx tsc --init
+```
