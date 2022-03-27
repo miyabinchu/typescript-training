@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ngt-masa/typescript-training/issues"
   },
-  "homepage": "https://github.com/ngt-masa/typescript-training#readme"
+  "homepage": "https://github.com/ngt-masa/typescript-training#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
 }
